@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');*/
+/* CSS file for Register page */
+.body{
+  background-color:#fff
+}
+.contain2 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background-image: url('https://64.media.tumblr.com/3a0bc4f7a19b60468bf7fcd4ca7c60e9/tumblr_ppw43jUI7t1uzwgsuo1_400.gifv');
+   background-size: cover;
+}
+.contain2 .card1{
+  height:fit-content;
+  width:800px;
+  background-color:#ffffff00;
+  position:relative;
+  box-shadow:0 15px 30px rgba(0,0,0,0.1);
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius:10px;
+  margin-left: 100;
+  border: #000000;
+  border-width: 10px;
+}
+.contain2 .card1 .form1{
+  width:100%;
+  height:100%;
+  display:flex
+}
+.contain2 .card1 .leftside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0F3276;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width:50%;
+  /* height:50% !important; */
+  overflow:hidden
+}
+
+.leftside img{
+  height: 75%;
+  width:90%;
+  object-fit:fill;
+  margin-top: 2px;   
+}
+
+.contain2 .card1 .rightside{
+  width:50%;
+  background-color:#ffffff91;
+  height:100%;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  padding:20px
+}
+
+.leftside h2{
+  color:white;
+}
+
+.rightside h4{
+    font-weight: bold;
+}
+.hello1{
+  text-align:center;
+  color:#2a2739;
+  font-weight:500;
+  font-size:20px;
+}
+ input[
+  type="text"
+  ]
+  {
+    height:40px;
+    width:100%;
+    outline:0;
+    padding:0 10px;
+    font-size:13px;
+    border-radius:10px;
+    border:1px solid  rgb(43, 40, 40)
+}
+input[
+    type="password"
+   ]
+   {
+    height:40px;
+     width:100%;
+     outline:0;
+     padding:0 10px;
+     font-size:13px;
+     border-radius:10px;
+     padding-right:33px;
+     border:1px solid rgb(43, 40, 40)
+}
+.btn1{
+  margin-top:20px;
+  margin-left:70px;
+}
+.btn1 button{
+  height:40px;
+  width:200px;
+  outline:0;
+  background-color:rgb(171, 185, 185);
+  border-radius:10px;
+  transition:all 0.5s;
+  cursor:pointer;
+  color: grey;
+  border: 1px solid #555E86;
+  font-size: 16px;
+  position: relative;
+}
+.btn1 button:hover {
+  background-color:cadetblue;
+  color: #0E3377;
+}
+@media (max-width:750px){
+  .contain2 .card1{
+    max-width: 350px
+  }
+  .contain2 .card1 .rightside{
+    border-radius:10px;
+    width:100%
+  }
+  .contain2 .card1 .leftside{
+    display: none
+  }
+}

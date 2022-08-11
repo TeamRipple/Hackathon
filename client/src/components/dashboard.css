@@ -1,0 +1,27 @@
+
+  /*CSS for dashboard*/
+
+ .body1
+ {
+ 
+   
+   background-image: url('https://64.media.tumblr.com/3a0bc4f7a19b60468bf7fcd4ca7c60e9/tumblr_ppw43jUI7t1uzwgsuo1_400.gifv');
+   background-size: cover;
+  
+   padding:0;
+   margin:0;
+  height: 1156px;
+ }
+
+  .container
+  {
+    background-color: #b6dfdd8c;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.1);
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:10px;
+    margin-left: 100;
+    
+  }
+ 

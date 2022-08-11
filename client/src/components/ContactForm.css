@@ -1,0 +1,123 @@
+/* css for contact form and related tags*/
+body{
+   background-image: url('https://64.media.tumblr.com/3a0bc4f7a19b60468bf7fcd4ca7c60e9/tumblr_ppw43jUI7t1uzwgsuo1_400.gifv');
+   background-size: cover;
+}
+​
+.contain4{
+    display:flex !important;
+  justify-content:center !important;
+  align-items:center!important;
+   
+  background-color:rgb(255, 128, 0)!important;
+  margin: 10px 30px 10px 30px !important;
+   height: fit-content !important; 
+}
+​
+.contain4 .card3{
+    max-height:650px !important;
+    max-width:1000px!important;
+    background-color:#fff!important;
+    position:relative!important;
+    box-shadow:0 15px 30px rgba(0,0,0,0.1)!important;
+    font-family: 'Source Sans Pro', sans-serif!important;
+    border-radius:10px!important;
+    margin-left: 100!important;
+    border: #000000!important;
+    border-width: 10px!important;
+  }
+​
+  .hello2{
+    margin-top:40px;
+    text-align:center;
+    color:black;
+    font-weight:900;
+    font-size:40px;   
+  }
+​
+  .form-group1{
+    position:relative;
+    margin-top:35px
+  }
+​
+  input[
+  type="text"
+  ]
+  {
+    height:45px;
+    width:90%;
+    border:none;
+    outline:0;
+    padding:0 10px;
+    font-size:13px;
+    border-radius:10px;
+    border: 1px solid #6c6b72 ;
+    margin-left:35px
+}
+​
+input[
+  type="email"
+  ]
+  {
+    height:45px;
+    width:90%;
+    border:none;
+    outline:0;
+    padding:0 10px;
+    font-size:13px;
+    border-radius:10px;
+    border: 1px solid #6c6b72 ;
+    margin-left:35px
+}
+​
+textarea[
+  type="text"
+  ]
+  {
+    height:45px;
+    width:90%;
+    border:none;
+    outline:0;
+    padding:0 10px;
+    font-size:13px;
+    border-radius:10px;
+    border: 1px solid #6c6b72 ;
+    margin-left:35px
+​
+}
+​
+.lab{  
+  margin-left: 20px;
+  color:#363636
+}
+​
+.danger{
+  display:none
+}
+​
+.alert{
+  color: crimson;
+  margin-left: 20px;
+}
+​
+.btn{  
+  margin-top:15px;
+  margin-left:60px;
+}
+​
+.btn button{
+  height:40px;
+  width:200px;
+  border:none;
+  outline:0;
+  background-color:cadetblue;
+  border-radius:10px;
+  transition:all 0.5s;
+  cursor:pointer;
+  font-size:13px;
+  color:#fff;    
+}
+​
+.btn button:hover{
+  background-color:blue
+}
