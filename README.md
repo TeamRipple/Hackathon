@@ -1,8 +1,8 @@
-# Discussion Forum
+# CL Connects
 
-A disscussion forum built using ReactJS, NodeJS and MongoDB.
+A CL Connects built using ReactJS, NodeJS and MongoDB.
 
-<img src="images/post1.png">
+<img src="images/s8.png">
 
 ## Features
 
