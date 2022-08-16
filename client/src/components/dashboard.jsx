@@ -101,14 +101,13 @@ class Dashboard extends Component {
           if (myarr.toLowerCase().includes(searchWord)) 
           //remove duplication in listing of post
           {  if(!(filtered.includes(post)))
-            {    console.log("1")
+            {    
                 filtered.push(post);
               
             }   
           }
           // searching for word in description of posts and appending to list
           if (myarr1.toLowerCase().includes(searchWord)) 
-          console.log("2");
           {//remove duplication in listing of post
             if(!(filtered.includes(post)))
             {    
