@@ -2,7 +2,7 @@
 
 A disscussion forum built using ReactJS, NodeJS and MongoDB.
 
-<img src="images/post1.png">
+<img src="client\public\s8.png">
 
 ## Features
 

@@ -77,12 +77,12 @@ class Dashboard extends Component {
   handleFilter = (event) => 
   {
       const searchWord = event.target.value;
-      this.setState({ searchWord: searchWord.toLowerCase()});
+      this.setState({ searchWord: searchWord.toLowerCase(), currentPage: 1});
   };
 
   //function for filtering of posts based on Search bar value 
   getPosts1 = () => 
-  {
+  {    
         const { allposts, searchWord} = this.state;
         console.log(searchWord)
         const filtered = [];
@@ -101,14 +101,13 @@ class Dashboard extends Component {
           if (myarr.toLowerCase().includes(searchWord)) 
           //remove duplication in listing of post
           {  if(!(filtered.includes(post)))
-            {    console.log("1")
+            {   
                 filtered.push(post);
               
             }   
           }
           // searching for word in description of posts and appending to list
           if (myarr1.toLowerCase().includes(searchWord)) 
-          console.log("2");
           {//remove duplication in listing of post
             if(!(filtered.includes(post)))
             {    
@@ -126,6 +125,7 @@ class Dashboard extends Component {
           }
         }
       //returning latest post first
+      console.log(filtered);
       return filtered.reverse();
   };
   
