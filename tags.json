@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "62b56df6bf089014e890cf6e"
+  },
+  "used": 0,
+  "name": "Housing",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62b570e0f930a52e60ba6071"
+  },
+  "used": 0,
+  "name": "Travel",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62b570e3785c9d083c9ae2ae"
+  },
+  "used": 0,
+  "name": "Technical Issues",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62b5aace28abd78ee1d2cf69"
+  },
+  "used": 0,
+  "name": "CarPool",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62b5aae628abd78ee1d2cf6b"
+  },
+  "used": 0,
+  "name": "General",
+  "__v": 0
+}]

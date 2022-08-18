@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "62b42ce7701fde3f049e55f4"
+  },
+  "isAdmin": false,
+  "name": "Chris",
+  "email": "chrisel@cirruslabs.io",
+  "username": "CL306",
+  "password": "$2b$10$RP0icH0yLtZaZClFgA/Bn.piyDgnU6XS7s08MhoY/o39V0XcSBDaC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62b99400e70e282f5cfd80d0"
+  },
+  "isAdmin": false,
+  "name": "vinod",
+  "email": "vinod@cirruslabs.com",
+  "username": "vinodbawge",
+  "password": "$2b$10$zqX7pSJ9Tvm05UhdGAz1uew6U4ydaSRmUxMys.q.64p4uwHAhWE1m",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62bae3e46cb30f0bc86ab16b"
+  },
+  "isAdmin": false,
+  "name": "Pranjal",
+  "email": "p@cirruslab.io",
+  "username": "CL300",
+  "password": "$2b$10$ZW.gb7G0pwZ6rtHVEbIM6evjhaBtSRi0oLA.DPSjpchobSxhRdEC.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d8f56d19f6992dd8dd9406"
+  },
+  "isAdmin": false,
+  "name": "nagendra",
+  "email": "nagendra@cirruslabs.io",
+  "username": "nagendra",
+  "password": "$2b$10$BRNfkCX17O8uBk9AOrxsouskgzHjeVfU6IlnCyz.8XX0iWzZt2Nzy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e12b76876f6a32ac61a4dd"
+  },
+  "isAdmin": false,
+  "name": "teerthana",
+  "email": "teerthana@cirruslabs.io",
+  "username": "teerthana",
+  "password": "$2b$10$QGpm1JLjcN0GoerlgijUzOyL9r9/KdXryyOk2KyXMDFZmGCtgY7xa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e251dd205ce21404f64ac8"
+  },
+  "isAdmin": false,
+  "name": "Pranjal",
+  "email": "pranjal@cirruslabs.io",
+  "username": "CL303",
+  "password": "$2b$10$3gPWGxwzPGFIn/mFYbEYH.OtOaFzNwngFkY7bMHNCASjE0Meu10d6",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e25268205ce21404f64ad2"
+  },
+  "isAdmin": false,
+  "name": "Sonia",
+  "email": "sonia@cirruslab.io",
+  "username": "CL247",
+  "password": "$2b$10$dztAoztPLEhzEf4mN9iT2O4QnyI6HpbpMBoGO4cqQwoPKkiuJ23ry",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e383ba40571f3310f05cb2"
+  },
+  "isAdmin": false,
+  "name": "Mahesh",
+  "email": "maheshmn@cirruslabs.io",
+  "username": "CL280",
+  "password": "$2b$10$uesoYpsnknTVBSRAq.VW/uWCzO65dzYtfDrjC0PtpOZvpFwqsmYR2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e39d9040571f3310f05d6c"
+  },
+  "isAdmin": false,
+  "name": "Arpitha",
+  "email": "arpitha@cirruslabs.io",
+  "username": "CL163",
+  "password": "$2b$10$5ROuhBLCFAh/GtfST4dh4uqQystB6FoseNzH/sudveYAcmBpx/6Wy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e8fe0f48d5262580675937"
+  },
+  "isAdmin": false,
+  "name": "Pranjal",
+  "email": "p@cirruslabs.io",
+  "username": "cl303",
+  "password": "$2b$10$5P3gWMFUECuh4Zk0oUorEuOmP4uF/tdWUBOEjHE17T6CTwyMlwYra",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0b0d332aeb83e38f0deba"
+  },
+  "isAdmin": false,
+  "name": "Preetham",
+  "email": "preetham@cirruslabs.io",
+  "username": "CL  310",
+  "password": "$2b$10$dupOjMMQYXi8Kj1oxA8lxuSI1aW5WvWDB9pLhrYPzAkl40.xEaFK.",
+  "__v": 0
+}]
