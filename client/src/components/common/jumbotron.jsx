@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faHandshake} from "@fortawesome/free-solid-svg-icons";
-
+import logo1 from "../../images/s8.png";
 //Homepage to display at application startup
 const Jumotron = () => {
   return (
@@ -12,7 +12,7 @@ const Jumotron = () => {
       
       <hr class="my-4" />
       <p className="lead">A Disscussion Broadcast channel for the CL Family.</p>
-      <img src={'http://localhost:3000/s8.png'} alt={"not found"}/>
+      <img src={logo1} alt={" not found"}/>
     </div>
   );
 };

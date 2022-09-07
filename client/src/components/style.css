@@ -99,7 +99,7 @@ body {
   .sidebar__icon {
     margin: 0 15px 0 0;
     color: #dee4ec;
-  width: 30px;
+  width: 25px;
   display: inline-block;
   height: fit-content;
   }
@@ -132,7 +132,7 @@ body {
   ul li:hover .sidebar__listItem .sidebar__icon 
    {
     color: #dd2627;
-    width: 25px;
+    width: 30px;
     
   }
  

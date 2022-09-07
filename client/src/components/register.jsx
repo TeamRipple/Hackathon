@@ -9,7 +9,7 @@ import "react-toastify/dist/react-toastify.esm";
 import '../components/reg.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSmile,faUserCheck, faUserPlus } from "@fortawesome/free-solid-svg-icons";
-
+import logo1 from "../images/s8.png";
 //class for react register page
 class Register extends Form {
   //state variables for the inputs from the register form
@@ -57,7 +57,7 @@ class Register extends Form {
           <div className="card1">
             <div className="form1">
               <div className="leftside">
-                { <img src={'http://localhost:3000/s8.png'} alt={"not found"}/>  }
+                <img src={logo1} alt={" not found"}/>
                 <h2><FontAwesomeIcon icon={faSmile} /> Welcome to </h2> <br/>
                 <h2>CL Broadcasting Channel</h2>
               </div> 

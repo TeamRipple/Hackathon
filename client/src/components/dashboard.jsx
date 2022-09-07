@@ -174,6 +174,7 @@ class Dashboard extends Component {
                   type="text"
                   value={this.state.value}
                   onChange={this.handleFilter}
+                  placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author Name | Title | Description"
                   />
                   <br/>
                   <br/>

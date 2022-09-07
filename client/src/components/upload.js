@@ -4,7 +4,8 @@ import { ToastContainer} from "react-toastify";
 import "react-toastify/dist/react-toastify.esm";
 import '../components/reg.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSmile,faFile, faUserPlus } from "@fortawesome/free-solid-svg-icons";
+import logo1 from "../images/s8.png";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 //function for upload file
 const Upload = () => {
     const[file, setfile] = useState('');
@@ -41,7 +42,7 @@ const Upload = () => {
           <div className="card1">
             <div className="form1">
               <div className="leftside">
-                { <img src={'http://localhost:3000/s8.png'} alt={"not found"}/>  }
+                <img src={logo1} alt={" not found"}/>
                 
               </div> 
               <div className="rightside" style={{height:"unset"}}>

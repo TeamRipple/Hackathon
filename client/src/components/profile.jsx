@@ -14,7 +14,7 @@ import {
   faTaxi, 
   faTruckPlane, 
   faUserTie } from "@fortawesome/free-solid-svg-icons";
-
+import userlogo from "../images/cl111.png"
 //function for profile page
 const Profile = ({ user }) => {
   //creating state variable for file upload
@@ -45,15 +45,15 @@ const Profile = ({ user }) => {
   }
   rename(file); 
   // function for user images
-  const imagefind = (i1) => 
-  {
-    if( i1 === "pranjal" || i1 === "Pranjal" || i1 === "PRANJAL" || i1 === "Pranjalk"){ return 'pranjal' ;}
-    if( i1 === "sonia" || i1 === "Sonia" || i1 === "SONIA"){ return 'sonia';}
-    if (i1 === "Chris" || i1 === "chris" || i1 === "CHRIS"){ return 'chris' ;}
-    if( i1 === "nagendra" || i1 === "Nagendra" || i1 === "NAGENDRA"){ return 'nagendra';}
-    if( i1 === "teerthana" || i1 === "Teerthana" || i1 === "TEERTHANA"){ return 'teerthana';}
-    else{return 'cl111'; }
-  }
+  // const imagefind = (i1) => 
+  // {
+  //   if( i1 === "pranjal" || i1 === "Pranjal" || i1 === "PRANJAL" || i1 === "Pranjalk"){ return 'pranjal' ;}
+  //   if( i1 === "sonia" || i1 === "Sonia" || i1 === "SONIA"){ return 'sonia';}
+  //   if (i1 === "Chris" || i1 === "chris" || i1 === "CHRIS"){ return 'chris' ;}
+  //   if( i1 === "nagendra" || i1 === "Nagendra" || i1 === "NAGENDRA"){ return 'nagendra';}
+  //   if( i1 === "teerthana" || i1 === "Teerthana" || i1 === "TEERTHANA"){ return 'teerthana';}
+  //   else{return 'cl111'; }
+  // }
   //function for matching icons to tags
   const checkIcon = (i) => 
   {   
@@ -74,7 +74,8 @@ const Profile = ({ user }) => {
               <div className="card3">
                 <div className="form2">
                   <div className="leftside1">
-                    <img src={'http://localhost:3000/'+imagefind(user.name)+'.png'} alt={" not found"} />
+                    {/* <img src={'http://localhost:3000/'+imagefind(user.name)+'.png'} alt={" not found"} /> */}
+                    <img src={userlogo} alt={" not found"} />
                     <h2>
                       <FontAwesomeIcon icon={faUserTie}/> &nbsp; {user.username} <br/><hr/>
                       <FontAwesomeIcon icon={faIdBadge}/> &nbsp; {user.name}  <br/><hr/>

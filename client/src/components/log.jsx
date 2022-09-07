@@ -9,7 +9,7 @@ import Form from "./common/form";
 import { login } from "../services/authService";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightToBracket, faUserPlus, faUserShield } from "@fortawesome/free-solid-svg-icons";
-
+import logo1 from "../images/s8.png";
 // contain data or information about the Form
 class Log extends Form 
 {
@@ -64,7 +64,7 @@ class Log extends Form
             <div className="card">
               <div className="form">
                 <div className="left-side">
-                  <img src={'http://localhost:3000/s8.png'} alt={" not found"}/> 
+                  <img src={logo1} alt={" not found"}/> 
                 </div>
                 <div className="right-side">
                   <div className="register">
