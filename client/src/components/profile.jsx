@@ -47,12 +47,7 @@ const Profile = ({ user }) => {
   // function for user images
   const imagefind = (i1) => 
   {
-    if( i1 === "pranjal" || i1 === "Pranjal" || i1 === "PRANJAL" || i1 === "Pranjalk"){ return 'cl111' ;}
-    if( i1 === "sonia" || i1 === "Sonia" || i1 === "SONIA"){ return 'cl111';}
-    if (i1 === "Chris" || i1 === "chris" || i1 === "CHRIS"){ return 'cl111' ;}
-    if( i1 === "nagendra" || i1 === "Nagendra" || i1 === "NAGENDRA"){ return 'cl111';}
-    if( i1 === "teerthana" || i1 === "Teerthana" || i1 === "TEERTHANA"){ return 'cl111';}
-    else{return 'cl111'; }
+    return 'cl111'; 
   }
   //function for matching icons to tags
   const checkIcon = (i) => 
