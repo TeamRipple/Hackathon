@@ -101,7 +101,11 @@ class Dashboard extends Component {
           if (myarr.toLowerCase().includes(searchWord)) 
           //remove duplication in listing of post
           {  if(!(filtered.includes(post)))
+<<<<<<< HEAD
             {   
+=======
+            {    
+>>>>>>> c0eee8d9f4b6fce3698b87884cfa84267a90af24
                 filtered.push(post);
               
             }   

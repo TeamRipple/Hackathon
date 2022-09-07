@@ -45,6 +45,7 @@ const Profile = ({ user }) => {
   }
   rename(file); 
   // function for user images
+<<<<<<< HEAD
   // const imagefind = (i1) => 
   // {
   //   if( i1 === "pranjal" || i1 === "Pranjal" || i1 === "PRANJAL" || i1 === "Pranjalk"){ return 'pranjal' ;}
@@ -54,6 +55,12 @@ const Profile = ({ user }) => {
   //   if( i1 === "teerthana" || i1 === "Teerthana" || i1 === "TEERTHANA"){ return 'teerthana';}
   //   else{return 'cl111'; }
   // }
+=======
+  const imagefind = (i1) => 
+  {
+    return 'cl111'; 
+  }
+>>>>>>> c0eee8d9f4b6fce3698b87884cfa84267a90af24
   //function for matching icons to tags
   const checkIcon = (i) => 
   {   
