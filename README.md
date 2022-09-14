@@ -4,8 +4,8 @@ A CL Connects built using ReactJS, NodeJS and MongoDB.
 
 
 <img src="client\public\s8.png">
-=======
-<img src="images/s8.png">
+
+
 
 
 ## Features
